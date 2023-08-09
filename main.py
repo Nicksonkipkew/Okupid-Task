@@ -5,7 +5,7 @@ import seaborn as sns
 # Load the dataset
 df = pd.read_csv('okcupid_profiles.csv',sep='\t')
 
-# Data Cleaningg
+# Data Cleaning
 
 # Identify missing data
 missing_values = df.isnull().sum()
