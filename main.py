@@ -7,7 +7,7 @@ df = pd.read_csv('okcupid_profiles.csv',sep='\t')
 
 # Data Cleaning
 
-# Identify missing data
+# Identify all missing data
 missing_values = df.isnull().sum()
 print("Missing Values:")
 print(missing_values)
